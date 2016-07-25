@@ -1,0 +1,81 @@
+doctype html
+html(lang='zh-Hans')
+  head
+    meta(charset="UTF-8")
+    meta(http-equiv="X-UA-Compatible",content="IE=edge,chrome=1")
+    meta(name="renderer",content="webkit")
+    meta(name="description",content="#{description}")
+    meta(name="viewport",content="width=device-width, initial-scale=1")
+    meta(http-equiv="Cache-Control",content="no-transform")
+    meta(http-equiv="Cache-Control",content="no-siteapp")
+    //- css link
+    link(rel="stylesheet",href="./css/reset.css")
+    link(rel="stylesheet",href="./css/style.css")
+    title= title
+  body
+    header.main-header
+      .header-content.clearfix
+        h1
+          span.myname= name
+          span.jobtitle= job
+        span.contact-info
+          ul
+            li.contact.contact-phone
+              i.fa.fa-mobile
+              | #{phone}
+            li.contact.contact-email
+              i.fa.fa-envelope-o
+              | #{email}
+            li.contact.contact-blog
+              a(href=blog,target='_blank') 个人博客
+    .main-content-wrapper
+      section.section
+        .main-content
+          header.section-header
+            h2.section-title= skills.title
+            h3.section-subtitle= skills.subtitle
+          .section-body
+            ul.skill-bar
+              each skill in skills.items
+                li.skill-item(class= "skill-"+skill.classname)
+                  h4.skill-name= skill.name
+                  .skill-detail.animate
+                    ul
+                      each desc in skill.desc
+                        li= desc
+      section.section
+        .main-content.clearfix
+          header.section-header
+            h2.section-title= education.title
+            h3.section-subtitle= education.subtitle
+          .section-body.education
+            .college-logo
+              img(src=education.logo.img,alt=education.logo.alt)
+            .education-info
+              each edu in education.items
+                h4= edu.des
+                  b= edu.major
+              ul
+                each reward in education.rewards
+                  li= reward
+      section.section
+        .main-content.clearfix
+          header.section-header
+            h2.section-title= project.title
+            h3.section-subtitle= project.subtitle
+          .section-body
+            ul.project
+              each item in project.items
+                li.project-detail.clearfix
+                  .project-info
+                    h4.project-title= item.title
+                    p= item.time
+                    p= item.des
+                    if item.link
+                      p
+                        | 项目地址:
+                        a(href=item.link,target='_blank')= item.title
+                  if item.imgs
+                    .project-screenshot
+                      each src in item.imgs
+                        img(src=src,alt=item.title)

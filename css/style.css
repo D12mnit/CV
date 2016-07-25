@@ -1,109 +1,113 @@
-html{
+html {
   font-size: 62.5%;
 }
-body{
+body {
   font-size: 1.6rem;
   color: #333;
-  font-family: "Pingfang SC","Microsoft YaHei","Helvetica Neue", Helvetica,"STXihei", Arial, sans-serif;
+  font-family: "Pingfang SC", "Microsoft YaHei", "Helvetica Neue", Helvetica, "STXihei", Arial, sans-serif;
   -webkit-font-smoothing: antialiased;
   -webkit-text-size-adjust: none;
 }
-a{
+a {
   text-decoration: none;
   color: #2196f3;
 }
-img{
+img {
   max-width: 100%;
 }
-.clearfix:after{
+.fa {
+  width: 20px;
+  text-align: center;
+}
+.clearfix:after {
   display: block;
   content: '.';
   clear: both;
   visibility: hidden;
   height: 0;
 }
-.main-header{
+.main-header {
   position: fixed;
   top: 0;
   left: 0;
   width: 100%;
   padding: 15px 0;
-  background-color: rgba(255,255,255,.95);
-  box-shadow: 0 1px 2px rgba(0,0,0,.2);
+  background-color: rgba(255, 255, 255, .95);
+  box-shadow: 0 0 2px rgba(0, 0, 0, .2);
   z-index: 999;
 }
-.header-content{
+.header-content {
   position: relative;
   max-width: 980px;
   margin: 0 auto;
 }
-h1{
+h1 {
   float: left;
   font-size: 4rem;
 }
-h2{
+h2 {
   font-size: 4rem;
 }
-h3{
+h3 {
   font-size: 3rem;
 }
-i{
+i {
   font-size: 2rem;
   margin-right: 5px;
 }
-.section-subtitle{
+.section-subtitle {
   padding-top: 20px;
   color: #666;
 }
-.jobtitle{
+.jobtitle {
   font-size: 2rem;
   color: #666;
 }
-.contact-info{
+.contact-info {
   position: absolute;
   right: 0;
   bottom: 0;
   font-size: 1.4rem;
 }
-.contact{
+.contact {
   float: left;
   height: 20px;
   line-height: 20px;
   padding-left: 20px;
   margin-left: 20px;
 }
-.contact-blog{
+.contact-blog {
   float: right;
   margin: 0;
 }
-.contact-blog a{
+.contact-blog a {
   padding: 3px 5px;
   color: #fff;
   background-color: #2196f3;
-  background: -webkit-linear-gradient(#4276A0,#2196f3);
-  background: linear-gradient(#4276A0,#2196f3);
+  background: -webkit-linear-gradient(#4276A0, #2196f3);
+  background: linear-gradient(#4276A0, #2196f3);
   border-radius: 3px;
 }
-.main-content-wrapper{
+.main-content-wrapper {
   padding-top: 70px;
 }
-.section:nth-child(even){
+.section:nth-child(even) {
   background-color: #fafafa;
 }
-.main-content{
+.main-content {
   max-width: 980px;
   margin: 0 auto;
   padding: 50px 0;
   text-align: center;
 }
-.section-header{
+.section-header {
   margin-bottom: 30px;
 }
-.skill-bar{
+.skill-bar {
   text-align: left;
   font-size: 1.6rem;
 }
-.skill-item{
+.skill-item {
   position: relative;
   height: 40px;
   margin-bottom: 20px;
@@ -112,110 +116,172 @@ i{
   -o-animation-duration: 1.5s;
   animation-duration: 1.5s;
 }
-.skill-name{
+.skill-name {
   padding-left: 10px;
 }
-.skill-html,
-.skill-js{
+.skill-html, .skill-js {
   color: #097EBF;
   background-color: #DCF2FF;
   border-left: 3px solid #097EBF;
 }
-.skill-html{
+.skill-html {
   width: 90%;
   -webkit-animation-name: skill-html;
   -o-animation-name: skill-html;
   animation-name: skill-html;
 }
 @-webkit-keyframes skill-html {
-  from {width: 0}
-  to {width: 90%}
+  from {
+    width: 0
+  }
+  to {
+    width: 90%
+  }
 }
 @-o-keyframes skill-html {
-  from {width: 0}
-  to {width: 90%}
+  from {
+    width: 0
+  }
+  to {
+    width: 90%
+  }
 }
 @-moz-keyframes skill-html {
-  from {width: 0}
-  to {width: 90%}
+  from {
+    width: 0
+  }
+  to {
+    width: 90%
+  }
 }
 @keyframes skill-html {
-  from {width: 0}
-  to {width: 90%}
+  from {
+    width: 0
+  }
+  to {
+    width: 90%
+  }
 }
-.skill-js{
+.skill-js {
   width: 70%;
   -webkit-animation-name: skill-js;
   -o-animation-name: skill-js;
   animation-name: skill-js;
 }
 @-webkit-keyframes skill-js {
-  from {width: 0}
-  to {width: 70%}
+  from {
+    width: 0
+  }
+  to {
+    width: 70%
+  }
 }
 @-o-keyframes skill-js {
-  from {width: 0}
-  to {width: 70%}
+  from {
+    width: 0
+  }
+  to {
+    width: 70%
+  }
 }
 @-moz-keyframes skill-js {
-  from {width: 0}
-  to {width: 70%}
+  from {
+    width: 0
+  }
+  to {
+    width: 70%
+  }
 }
 @keyframes skill-js {
-  from {width: 0}
-  to {width: 70%}
+  from {
+    width: 0
+  }
+  to {
+    width: 70%
+  }
 }
-.skill-jquery,
-.skill-nodejs{
+.skill-jquery, .skill-nodejs {
   color: #79A509;
   background-color: #EEFFC1;
   border-left: 3px solid #79A509;
 }
-.skill-jquery{
+.skill-jquery {
   width: 60%;
   -webkit-animation-name: skill-jquery;
   -o-animation-name: skill-jquery;
   animation-name: skill-jquery;
 }
 @-webkit-keyframes skill-jquery {
-  from {width: 0}
-  to {width: 60%}
+  from {
+    width: 0
+  }
+  to {
+    width: 60%
+  }
 }
 @-o-keyframes skill-jquery {
-  from {width: 0}
-  to {width: 60%}
+  from {
+    width: 0
+  }
+  to {
+    width: 60%
+  }
 }
 @-moz-keyframes skill-jquery {
-  from {width: 0}
-  to {width: 60%}
+  from {
+    width: 0
+  }
+  to {
+    width: 60%
+  }
 }
 @keyframes skill-jquery {
-  from {width: 0}
-  to {width: 60%}
+  from {
+    width: 0
+  }
+  to {
+    width: 60%
+  }
 }
-.skill-nodejs{
+.skill-nodejs {
   width: 10%;
   -webkit-animation-name: skill-nodejs;
   -o-animation-name: skill-nodejs;
   animation-name: skill-nodejs;
 }
 @-webkit-keyframes skill-nodejs {
-  from {width: 0}
-  to {width: 10%}
+  from {
+    width: 0
+  }
+  to {
+    width: 10%
+  }
 }
 @-o-keyframes skill-nodejs {
-  from {width: 0}
-  to {width: 10%}
+  from {
+    width: 0
+  }
+  to {
+    width: 10%
+  }
 }
 @-moz-keyframes skill-nodejs {
-  from {width: 0}
-  to {width: 10%}
+  from {
+    width: 0
+  }
+  to {
+    width: 10%
+  }
 }
 @keyframes skill-nodejs {
-  from {width: 0}
-  to {width: 10%}
+  from {
+    width: 0
+  }
+  to {
+    width: 10%
+  }
 }
-.skill-ps{
+.skill-ps {
   width: 50%;
   color: #1C4AAF;
   background-color: #BBD0FF;
@@ -225,22 +291,38 @@ i{
   animation-name: skill-ps;
 }
 @-webkit-keyframes skill-ps {
-  from {width: 0}
-  to {width: 50%}
+  from {
+    width: 0
+  }
+  to {
+    width: 50%
+  }
 }
 @-o-keyframes skill-ps {
-  from {width: 0}
-  to {width: 50%}
+  from {
+    width: 0
+  }
+  to {
+    width: 50%
+  }
 }
 @-moz-keyframes skill-ps {
-  from {width: 0}
-  to {width: 50%}
+  from {
+    width: 0
+  }
+  to {
+    width: 50%
+  }
 }
 @keyframes skill-ps {
-  from {width: 0}
-  to {width: 50%}
+  from {
+    width: 0
+  }
+  to {
+    width: 50%
+  }
 }
-.skill-detail{
+.skill-detail {
   position: absolute;
   left: 150px;
   top: 15px;
@@ -251,156 +333,247 @@ i{
   z-index: 10;
   color: #333;
 }
-.skill-detail ul{
+.skill-detail ul {
   padding: 10px 30px;
-  background-color: rgba(255,255,255,.6);
+  background-color: rgba(255, 255, 255, .6);
   border-radius: 3px;
-  box-shadow: 0 0 3px rgba(0,0,0,.3)
+  box-shadow: 0 0 3px rgba(0, 0, 0, .3)
 }
-.skill-detail ul li{
+.skill-detail ul li {
   list-style: disc;
 }
-.skill-item:hover .skill-detail{
+.skill-item:hover .skill-detail {
   display: block;
 }
-.section-body{
+.section-body {
   position: relative;
 }
-
-.college-logo{
-  float: left;
-  width: 50%;
+.section-body.education {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  box-align: center;
+  align-items: center;
+}
+.college-logo {
+  -webkit-box-flex: 1;
+  box-flex: 1;
+  -webkit-flex: 1;
+  flex: 1;
+  width: 100%;
+}
+.college-logo img {
   height: 150px;
 }
-.college-logo img{
-  height: 150px;  
-}
-.education-info{
-  float: left;
-  width: 50%;
+.education-info {
+  -webkit-box-flex: 1;
+  box-flex: 1;
+  -webkit-flex: 1;
+  flex: 1;
+  width: 100%;
   font-size: 1.6rem;
   text-align: left;
   line-height: 1.5;
 }
-b{
+b {
   font-weight: bold;
 }
-.education-info li{
+.education-info li {
   list-style: disc inside;
 }
-.project{
+.project {
   margin-top: 50px;
   text-align: left;
   font-size: 1.6rem;
   line-height: 1.5;
 }
-.project-detail{
+.project-detail {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  align-items: center;
   padding: 20px 0 30px 0;
   border-bottom: 2px dotted #ddd;
 }
-.project-info{
-  width: 50%;
-  float: left;
+.project-info {
+  -webkit-box-flex: 1.5;
+  box-flex: 1.5;
+  -webkit-flex: 1.5;
+  flex: 1.5;
+  width: 100%;
   padding-left: 10px;
 }
-.project-info h4{
+.project-info h4 {
   font-size: 2rem;
   font-weight: bold;
 }
-.project-info p{
+.project-info p {
   margin-top: 20px;
 }
-.project-info a{
+.project-info a {
   padding-right: 50px;
 }
-.project-screenshot{
-  float: right;
+.project-screenshot {
+  box-flex: 1;
+  -webkit-box-flex: 1;
+  flex: 1;
+  -webkit-flex: 1;
+  text-align: center;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  width: 100%;
+  box-align: center;
+  align-items: center;
+  box-pack: justify;
+  justify-content: space-around;
 }
-.project-screenshot img{
-  width: 400px;
-  -webkit-filter: drop-shadow(0 0 10px rgba(0,0,0,.6));
-  -o-filter: drop-shadow(0 0 10px rgba(0,0,0,.6));
-  filter: drop-shadow(0 0 10px rgba(0,0,0,.6));
+.project-screenshot img {
+  -webkit-box-flex: 1;
+  box-flex: 1;
+  -webkit-flex: 1;
+  flex: 1;
+  width: 0;
+  -webkit-filter: drop-shadow(0 0 10px rgba(0, 0, 0, .6));
+  -o-filter: drop-shadow(0 0 10px rgba(0, 0, 0, .6));
+  filter: drop-shadow(0 0 10px rgba(0, 0, 0, .6));
 }
-.project-screenshot.double img{
-  width: 150px;
-}
-.section-body p{
+.section-body p {
   font-size: 16px;
   line-height: 2;
 }
-.main-footer{
-  box-shadow: 0 0 1px rgba(0,0,0,.2),0 -1px 3px rgba(0,0,0,.2);
+.main-footer {
+  box-shadow: 0 0 1px rgba(0, 0, 0, .2), 0 -1px 3px rgba(0, 0, 0, .2);
 }
-.main-footer .main-content{
+.main-footer .main-content {
   padding: 30px 0;
 }
-.main-footer .copyright{
+.main-footer .copyright {
   float: right;
   padding-right: 20px;
   text-align: right;
   color: #666;
   font-size: 1.4rem;
 }
-@media screen and (max-width: 1050px){
-  .header-content{
+@media screen and (max-width:1050px) {
+  .header-content {
     margin: 0 20px;
   }
-  .section-body{
+  .section-body {
     padding: 0 10px;
   }
 }
-@media screen and (max-width: 845px){
-  .main-header{
+@media screen and (max-width:845px) {
+  .main-header {
     position: relative;
   }
-  .main-content-wrapper{
+  .main-content-wrapper {
     padding-top: 0;
   }
-  .header-content h1{
+  .header-content h1 {
     float: none;
     line-height: 40px;
-    font-size: 3.6rem;
+    font-size: 2.4rem;
   }
-  .contact-info{
+  .jobtitle {
+    font-size: 1.6rem;
+  }
+  .contact-info {
     position: relative;
   }
-  .contact{
+  .contact {
     margin-left: 0;
     padding-left: 0;
     margin-right: 20px;
   }
-  .contact-blog{
+  .contact-blog {
     margin-right: 0;
   }
-  .section-title{
-    font-size: 3rem;
+  .section-title {
+    font-size: 2.4rem;
   }
-  .section-subtitle{
-    font-size: 2rem;
+  .section-subtitle {
+    font-size: 1.6rem;
     padding-top: 10px;
   }
-  .project-info{
+  .project-info {
     float: none;
     width: 100%;
   }
-  .project-screenshot{
+  .project-screenshot {
     margin-top: 10px;
   }
 }
-@media screen and (max-width: 478px){
-  .college-logo img{
+@media screen and (max-width:478px) {
+  html {
+    font-size: 75%;
+  }
+  .college-logo img {
     height: 100px;
   }
-  .education-info ul{
+  .skill-bar {
     position: relative;
-    right: 100%;
-    width: 200%;
   }
-  .contact-blog{
+  .skill-item {
+    position: static;
+    height: 30px;
+    line-height: 30px;
+    margin-bottom: 10px;
+  }
+  .skill-detail {
+    left: 50%;
+    -webkit-transform: translate3d(-50%, 0, 0);
+    transform: translate3d(-50%, 0, 0);
+  }
+  .section-body.education {
+    flex-flow: column wrap;
+  }
+  .education-info {
+    margin-top: 10px;
+  }
+  .education-info ul {
+    position: relative;
+    width: 100%;
+    font-size: 1.4rem;
+  }
+  h4 {
+    font-size: 1.4rem;
+  }
+  .project {
+    margin-top: 0;
+  }
+  .project-detail {
+    flex-flow: column wrap;
+  }
+  .project-info h4 {
+    font-size: 1.6rem;
+  }
+  .project-info p {
+    margin-top: 10px;
+    font-size: 1.4rem;
+    line-height: 1.5;
+  }
+  .contact-blog {
     float: left;
   }
-  .contact{
+  .contact {
+    margin-bottom: 10px;
+  }
+}
+@media screen and (max-width:376px) {
+  html {
+    font-size: 62.5%;
+  }
+  .main-content {
+    max-width: 980px;
+    margin: 0 auto;
+    padding: 30px 0;
+    text-align: center;
+  }
+  .skill-item {
+    height: 20px;
+    font-size: 1.4rem;
+    line-height: 20px;
     margin-bottom: 10px;
   }
 }

@@ -1,0 +1,106 @@
+{
+    "title": "张蒙的CV",
+    "description": "简历,张蒙,前端开发,前端",
+    "name": "张蒙",
+    "job": "前端开发",
+    "phone": "130-0618-0726",
+    "email": "zhangmeng_95@163.com",
+    "blog": "http://blog.zmcss.com",
+    "skills": {
+        "title": "热爱前端，善于学习",
+        "subtitle": "喜爱编写美观的代码，并不断学习新技术",
+        "items": [{
+            "classname": "html",
+            "name": "HTML5&CSS3",
+            "desc": [
+                "了解HTML5新标签语义及新特性",
+                "能够运用CSS3使当前主流浏览器效果更佳",
+                "能够编写兼容性较好的页面",
+                "能够熟练运用chrome开发工具，firebug等辅助开法"
+            ]
+        },{
+            "classname": "js",
+            "name": "JavaScript",
+            "desc": [
+                "熟悉原生js语法，能够脱离jquery等类库编写代码",
+                "使用sea.js进行模块化开发",
+                "熟悉正则表达式的使用",
+                "熟悉数据结构，能够编写简单的公用函数",
+                "由于jquery使用较多，目前正在读《JavaScript高级程序设计》一书深入了解并学习原生js"
+            ]
+        },{
+            "classname": "jquery",
+            "name": "jQuery",
+            "desc": [
+                "能够熟练运用jQuery进行辅助开发",
+                "能够利用jQuery实现页面交互",
+                "熟悉jQuery常用函数并加以运用"
+            ]
+        },{
+            "classname": "nodejs",
+            "name": "NodeJS",
+            "desc": [
+                "正在了解并学习NodeJS"
+            ]
+        },{
+            "classname": "ps",
+            "name": "Photoshop",
+            "desc": [
+                "能够熟练运用PS进行图片处理，切图等",
+                "通过PS进行过页面设计工作"
+            ]
+        }]
+    },
+    "education": {
+        "title": "教育经历",
+        "subtitle": "2017年6月毕业",
+        "logo": {
+            "img": "img/hustlogo.svg",
+            "alt": "华中科技大学"
+        },
+        "items": [{
+            "des": "2013年进入 ",
+            "major": "华中科技大学"
+        },{
+            "des": "2013年至今  新闻与信息传播学院 ",
+            "major": "传播学(网络传播)"
+        },{
+            "des": "2013年至今  计算机学院 ",
+            "major": "计算机科学与技术"
+        }],
+        "rewards": ["获得英语四级证书","获得计算机二级证书(C语言)","在校期间担任大学生新闻中心醉晚亭网站副主管，负责网站改版及新网站开发"]
+    },
+    "project": {
+        "title": "项目实践",
+        "subtitle": "实践是学习最好的方法",
+        "items": [{
+            "title": "腾讯新闻直播构建工具 - autolive",
+            "time": "2016年4月 - 至今",
+            "des": "该项目是移动直播可视化快速搭建工具。在2个月的时间内，完成6个迭代版本发布，全网累计应用案例260多个。 目前直播工具用户已经遍及腾讯网，包括新闻、财经、体育、娱乐、教育、汽车、房产等频道以及11个地方站。\n该工具由我个人负责维护与迭代开发，同时负责了该工具的模块化重写，使用RequireJS进行模块管理，jQuery进行辅助开发。",
+            "link": "https://github.com/D12mnit/tencent-news-autolive"
+        },{
+            "title": "腾讯新闻H5直播弹幕组件",
+            "time": "2016年5月 - 至今",
+            "des": "该项目为腾讯新闻的H5直播页面弹幕功能组件，基于评论系统开发，可将评论转化为实时弹幕，并可发送弹幕并转化为评论。现已大量运用在腾讯新闻评论类直播H5中。\n该项目解决了腾讯视频统一播放器不支持手机端发送弹幕的问题，同时弹幕显示支持头像，支持多种可选参数（历史弹幕数量，显示行数等），独自开发，使用原生js，面向对象思想。",
+            "link": "https://github.com/D12mnit/CommentsDanmaku"
+        },{
+            "title": "华科任意门",
+            "time": "2015年6月 - 至今",
+            "des": "华科任意门是属于华中科技大学醉晚亭网站下的校园导航类网站，网站采用静态页面制作，目前仅通过Media Query适配手机端及pad端。",
+            "link": "http://hustgate.com/",
+            "imgs": ["http://7xpyyd.com1.z0.glb.clouddn.com/pic-hustgate.jpg","http://7xpyyd.com1.z0.glb.clouddn.com/pic-hustgate2.jpg"]
+        },{
+            "title": "ToDo List",
+            "time": "2015年10月",
+            "des": "ToDo List是完成自百度ife学院下的任务项目，实现了简单的个人任务管理系统。通过使用LocalStorage本地存储和JSON储存数据，并且在本次实践中开始接触模块化开发。随后的实践项目开始使用sea.js进行模块化开发。",
+            "link": "https://github.com/D12mnit/Cherming/tree/master/todolist",
+            "imgs": ["http://7xpyyd.com1.z0.glb.clouddn.com/pic-todolist.png"]
+        },{
+            "title": "OnSite 网站临摹",
+            "time": "2015年9月",
+            "des": "临摹国外网站OnSite,练习HTML与CSS布局及JS的交互功能的编写，训练页面布局和CSS3效果等，提高对于设计稿的实现能力",
+            "link": "http://d12mnit.github.io/Cherming/Onsite/index.html",
+            "imgs": ["http://7xpyyd.com1.z0.glb.clouddn.com/pic-onsite.png"]
+        }]
+    }
+}
