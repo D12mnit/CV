@@ -11,6 +11,7 @@ html(lang='zh-Hans')
     //- css link
     link(rel="stylesheet",href="./css/reset.css")
     link(rel="stylesheet",href="./css/style.css")
+    link(rel="stylesheet", href="http://libs.baidu.com/fontawesome/4.0.3/css/font-awesome.min.css")
     title= title
   body
     header.main-header
@@ -78,4 +79,5 @@ html(lang='zh-Hans')
                   if item.imgs
                     .project-screenshot
                       each src in item.imgs
-                        img(src=src,alt=item.title)
+                        .imgwrap
+                          img(src=src,alt=item.title)
